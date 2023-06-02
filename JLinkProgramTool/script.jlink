@@ -1,0 +1,8 @@
+Device=N32G031C8L6
+speed=4000
+
+w4 0x40021000, 0x00000001
+w4 0x40022000, 0x00000500
+loadfile "D:\Coding\embed_process\Program\Program\Objects\TemperatureAcquisition.bin"
+r
+g
